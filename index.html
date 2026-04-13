@@ -1,0 +1,85 @@
+<html>
+
+<head></head>
+
+<body>
+    <h1>jop application</h1>
+    <hr>
+    <form>
+        <h3>skills</h3>
+        <label for="html">html</label>
+        <input type="checkbox" id="html" name="skills" value="html" />
+        <br>
+        <label for="css">css</label>
+        <input type="checkbox" id="css" name="skills" value="css" />
+        <br>
+        <label for="js">js</label>
+        <input type="checkbox" id="js" name="skills" value="js" />
+        <br>
+        <label for="node.js">node.js</label>
+        <input type="checkbox" id="node.js" name="skills" value="node.js" />
+        <hr>
+        <h3>gender</h3>
+        <label for="male">male</label>
+        <input type="radio" id="male" name="gender" value="male" />
+        <br>
+        <label for="female">female</label>
+        <input type="radio" id="female" name="gender" value="female" />
+        <hr>
+        <label for="con1"><h3>choose the company branch you want</h3></label>
+        <input placeholder="choose..." id="con1" list="con" name="country">
+        <datalist id="con">
+            <option value="egypt"></option>
+            <option value="sudan"></option>
+            <option value="iran"></option>
+            <option value="uk"></option>
+            <option value="usa"></option>
+        </datalist>
+        <hr>
+        <label for="con2"><h3>where are you from</h3></label>
+        <select name="country" id="con2">
+            <optgroup label="middel east">
+                <option selected value="egypt">egypt</option>
+                <option value="sudan">sudan</option>
+                <option value="iran">iran</option>
+            </optgroup>
+            <optgroup label="west">
+                <option value="uk">uk</option>
+                <option value="usa">usa</option>
+        </select>
+        <hr>
+        <label for="fn">first name:</label>
+        <input placeholder="first name..." id="fn" name="first_name" type="text" />
+        <br> <br>
+        <label for="ln">last name:</label>
+        <input placeholder="last name..." id="ln" name="last_name" type="" />
+        <br> <br>
+        <label for="email">email</label>
+        <input placeholder="email only..." id="email" name="email" type"email">
+        <br><br>
+        <label for="010">telephone number</label>
+        <input placeholder="numbers only..." id="010" name="phone" type="tel" >
+        <br> <br>
+        <label for="123">age</label>
+        <input placeholder="+18..." max="100" min="18" id="123" name="age" type="number">
+        <br> <br>
+        <label for="pas">create password</label>
+        <input minlength="8" placeholder="use 8 characters or more... " id="pas" name="password" type="password">
+        <br> <br>
+        <label for="cv">attach cv</label>
+        <input placeholder="PDF..." id="cv" name="cv" type="file" accept="application/pdf">
+        <br> <br>
+        <label for="sam">attach work sampel</label>
+        <input placeholder="url..." id="sam" name="sampel" type="url">
+        <br> <br>
+        <label for="date">choose interview date</label>
+        <input id="date" name="date" type="date">
+        <br><br>
+        <textarea placeholder="any commints...?" rows="4" cols="30" name="notes" id=""></textarea>
+        <br> <br>
+        <button type="submit">send</button>
+        <br> <br>
+    </form>
+</body>
+
+</html>
